@@ -1,0 +1,22 @@
+.tecnologia-page {
+  background:
+    radial-gradient(circle at 14% 18%, rgba(255, 255, 255, 0.86) 0 4px, transparent 5px),
+    radial-gradient(circle at 82% 18%, rgba(255, 255, 255, 0.72) 0 3px, transparent 4px),
+    linear-gradient(135deg, #f0f0d8 0%, #f0d8d8 48%, #ffd8d8 100%);
+}
+
+.tecnologia-page .notebook {
+  background: linear-gradient(145deg, rgba(255, 253, 249, 0.96), rgba(240, 240, 216, 0.9));
+}
+
+.tecnologia-page .spiral {
+  background: repeating-linear-gradient(to bottom, transparent 0 22px, #c98a80 22px 31px, transparent 31px 48px);
+}
+
+.tecnologia-page .btn-primary {
+  background: linear-gradient(135deg, #c98a80, #c18a52);
+}
+
+.tecnologia-page .book-character img {
+  border-color: rgba(201, 138, 128, 0.34);
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo | KL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/catalogo.css">
+</head>
+<body>
+  <header class="catalog-header">
+    <nav class="nav container" aria-label="Menú principal">
+      <a class="brand-mini" href="/">KL</a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="/">Inicio</a></li>
+        <li><a href="/catalogo">Catálogo</a></li>
+        <li><a href="/#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <section class="catalog-hero container">
+      <div>
+        <p class="kicker">Catálogo KL</p>
+        <h1>Explora nuestras categorías con encanto</h1>
+        <p>Encuentra accesorios, tecnología, gym, decoración, belleza y detalles personalizados en una experiencia visual más limpia y especial.</p>
+      </div>
+      <img src="../img/logo.jpeg" alt="Logo KL">
+    </section>
+  </header>
+
+  <main class="container">
+    <section class="catalog-section" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <p class="kicker">Elige una categoría</p>
+        <h2 id="catalog-title">Detalles para cada estilo y ocasión</h2>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="/accesorios">
+          <span class="category-icon category-icon-accessories" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M14 13c2.5 8 17.5 8 20 0"></path><path d="M17 16c.6 9 13.4 9 14 0"></path><path d="M24 25l5 6-5 6-5-6 5-6Z"></path><path d="M10 11h5M33 11h5"></path></svg>
+          </span>
+          <h3>Accesorios</h3>
+          <p>Colgantes, collares, correas, dijes y detalles para complementar tu estilo.</p>
+          <span class="card-action">Abrir cuaderno</span>
+        </a>
+
+        <a class="category-card" href="/tecnologia">
+          <span class="category-icon category-icon-tech" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><rect x="14" y="10" width="20" height="28" rx="6"></rect><path d="M20 16h8"></path><circle cx="24" cy="29" r="5"></circle><path d="M35 14l3-3M36 23h5M35 32l3 3"></path></svg>
+          </span>
+          <h3>Tecnología</h3>
+          <p>Productos prácticos y modernos para uso diario o regalo.</p>
+          <span class="card-action">Abrir cuaderno</span>
+        </a>
+
+        <a class="category-card" href="/deportes">
+          <span class="category-icon category-icon-sports" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M10 28h28"></path><path d="M13 22v12M18 19v18M30 19v18M35 22v12"></path><path d="M8 24v8M40 24v8"></path></svg>
+          </span>
+          <h3>Deportes</h3>
+          <p>Accesorios para entrenar con comodidad, utilidad y estilo.</p>
+          <span class="card-action">Abrir cuaderno</span>
+        </a>
+
+        <a class="category-card" href="/hogar">
+          <span class="category-icon category-icon-home" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M9 23 24 11l15 12"></path><path d="M14 22v16h20V22"></path><path d="M20 38V27h8v11"></path><path d="M34 13v8"></path></svg>
+          </span>
+          <h3>Hogar</h3>
+          <p>Detalles suaves para embellecer espacios y rincones especiales.</p>
+          <span class="card-action">Abrir cuaderno</span>
+        </a>
+
+        <a class="category-card" href="/belleza">
+          <span class="category-icon category-icon-beauty" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><circle cx="24" cy="25" r="9"></circle><path d="M24 9v5M24 36v4M10 25h5M33 25h5"></path><path d="M15 12l3 3M33 12l-3 3M15 38l3-3M33 38l-3-3"></path><path d="M24 20c1.3 2.7 2.7 4 5 5-2.3 1-3.7 2.3-5 5-1.3-2.7-2.7-4-5-5 2.3-1 3.7-2.3 5-5Z"></path></svg>
+          </span>
+          <h3>Belleza</h3>
+          <p>Vinchas y accesorios delicados, bonitos y frescos para el día a día.</p>
+          <span class="card-action">Abrir cuaderno</span>
+        </a>
+
+        <a class="category-card" href="/ropa">
+          <span class="category-icon category-icon-summer" aria-hidden="true">
+            <svg viewBox="0 0 48 48"><path d="M9 24c4-8 13-12 25-8"></path><path d="M9 24c8-3 17-1 25 8"></path><path d="M24 17v22"></path><path d="M17 39h14"></path><path d="M36 14l3-3M39 21h5M33 9l1-5"></path></svg>
+          </span>
+          <h3>Verano &amp; Paseo</h3>
+          <p>Productos para playa, paseos, descanso y momentos al aire libre.</p>
+          <span class="card-action">Abrir cuaderno</span>
+        </a>
+
+      </div>
+    </section>
+
+    <section class="catalog-cta">
+      <p class="kicker">Pedido rápido</p>
+      <h2>¿No sabes qué elegir?</h2>
+      <p>Escríbenos y te ayudamos a encontrar una opción bonita según lo que buscas.</p>
+      <div>
+        <a href="https://wa.me/593962162461?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20cat%C3%A1logo%20de%20KL." target="_blank" rel="noopener">WhatsApp 1</a>
+        <a href="https://wa.me/593981822829?text=Hola,%20quiero%20informaci%C3%B3n%20sobre%20el%20cat%C3%A1logo%20de%20KL." target="_blank" rel="noopener">WhatsApp 2</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="catalog-footer">
+    <p><strong>KL</strong> | Detalles que encantan, para todo y para ti</p>
+    <p>© 2026 KL. Todos los derechos reservados.</p>
+  </footer>
+  <script src="../js/app.js"></script>
+</body>
+</html>

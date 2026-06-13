@@ -1,0 +1,22 @@
+.hogar-page {
+  background:
+    radial-gradient(circle at 14% 18%, rgba(255, 255, 255, 0.86) 0 4px, transparent 5px),
+    radial-gradient(circle at 82% 18%, rgba(255, 255, 255, 0.72) 0 3px, transparent 4px),
+    linear-gradient(135deg, #fff0d8 0%, #ffd8c0 48%, #f0d8c0 100%);
+}
+
+.hogar-page .notebook {
+  background: linear-gradient(145deg, rgba(255, 253, 249, 0.96), rgba(255, 240, 216, 0.9));
+}
+
+.hogar-page .spiral {
+  background: repeating-linear-gradient(to bottom, transparent 0 22px, #c18a52 22px 31px, transparent 31px 48px);
+}
+
+.hogar-page .btn-primary {
+  background: linear-gradient(135deg, #c18a52, #7a4c3f);
+}
+
+.hogar-page .book-character img {
+  border-color: rgba(193, 138, 82, 0.34);
+}

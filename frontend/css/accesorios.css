@@ -1,0 +1,18 @@
+.book-page {
+  background:
+    radial-gradient(circle at 20% 22%, rgba(255, 255, 255, 0.55) 0 7px, transparent 8px),
+    radial-gradient(circle at 82% 16%, rgba(255, 255, 255, 0.34) 0 18px, transparent 19px),
+    linear-gradient(145deg, #fff1df 0%, #f0d8c0 46%, #f0c0a8 100%);
+}
+
+.book-page .notebook {
+  background: linear-gradient(145deg, rgba(255, 253, 249, 0.96), rgba(255, 242, 236, 0.9));
+}
+
+.book-page .spiral {
+  background: repeating-linear-gradient(to bottom, transparent 0 22px, #d08a72 22px 31px, transparent 31px 48px);
+}
+
+.book-page .btn-primary {
+  background: linear-gradient(135deg, #d08a72, #c18a52);
+}
