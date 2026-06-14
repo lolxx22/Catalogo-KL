@@ -37,6 +37,7 @@ const nextPage = document.getElementById('nextPage');
 const pageDots = document.getElementById('pageDots');
 const notebook = document.querySelector('.notebook');
 let currentPage = 0;
+let touchStartX = 0;
 
 function renderDots() {
   pageDots.innerHTML = '';
@@ -89,6 +90,17 @@ document.addEventListener('keydown', (event) => {
   if (event.key === 'ArrowLeft') prevPage.click();
   if (event.key === 'ArrowRight') nextPage.click();
 });
+
+notebook.addEventListener('touchstart', (event) => {
+  touchStartX = event.changedTouches[0].clientX;
+}, { passive: true });
+
+notebook.addEventListener('touchend', (event) => {
+  const distance = event.changedTouches[0].clientX - touchStartX;
+  if (Math.abs(distance) < 45) return;
+  if (distance > 0) prevPage.click();
+  if (distance < 0) nextPage.click();
+}, { passive: true });
 
 renderPage();
 })();
