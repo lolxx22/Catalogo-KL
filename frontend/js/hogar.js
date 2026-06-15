@@ -23,6 +23,18 @@ const products = [
     description: 'Aceitero practico para servir y mantener tu cocina organizada.',
     image: '../img/aceitero.jpeg',
     price: '$2.50'
+  },
+  {
+    name: 'Rodapie',
+    description: 'Rodapie decorativo para proteger y dar un acabado mas limpio a tus espacios.',
+    image: '../img/rodapie.jpeg',
+    price: ''
+  },
+  {
+    name: 'Zapatera',
+    description: 'Zapatera practica para organizar el calzado y mantener el hogar ordenado.',
+    image: '../img/zapatera.jpeg',
+    price: ''
   }
 ];
 
