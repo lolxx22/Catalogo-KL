@@ -28,13 +28,13 @@ const products = [
     name: 'Rodapie',
     description: 'Rodapie decorativo para proteger y dar un acabado mas limpio a tus espacios.',
     image: '../img/rodapie.jpeg',
-    price: ''
+    price: '$5'
   },
   {
     name: 'Zapatera',
     description: 'Zapatera practica para organizar el calzado y mantener el hogar ordenado.',
     image: '../img/zapatera.jpeg',
-    price: ''
+    price: '$13'
   }
 ];
 
