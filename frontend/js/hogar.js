@@ -34,7 +34,7 @@ const products = [
     name: 'Zapatera',
     description: 'Zapatera practica para organizar el calzado y mantener el hogar ordenado.',
     image: '../img/zapatera.jpeg',
-    price: '$13'
+    price: '$15'
   }
 ];
 

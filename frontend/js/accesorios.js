@@ -40,7 +40,7 @@ const products = [
     name: 'Anillos metálicos',
     description: 'Anillos metálicos para combinar con accesorios diarios y looks especiales.',
     image: '../img/anillo.jpeg',
-    price: '$2'
+    price: 'Par: $4'
   }
 ];
 

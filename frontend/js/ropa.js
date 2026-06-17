@@ -4,13 +4,13 @@ const products = [
     name: 'Parasol',
     description: 'Ideal para playa, paseos y momentos al aire libre con sombra y comodidad.',
     image: '../img/parasol.jpeg',
-    price: '$20'
+    price: '$22'
   },
   {
     name: 'Perezosa',
     description: 'Perfecta para descansar en exteriores, playa o espacios abiertos con comodidad.',
     image: '../img/peresoza.jpeg',
-    price: '$32'
+    price: '$35'
   }
 ];
 
