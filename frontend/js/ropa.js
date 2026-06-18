@@ -10,7 +10,7 @@ const products = [
     name: 'Perezosa',
     description: 'Perfecta para descansar en exteriores, playa o espacios abiertos con comodidad.',
     image: '../img/peresoza.jpeg',
-    price: '$35'
+    price: '$32'
   }
 ];
 
